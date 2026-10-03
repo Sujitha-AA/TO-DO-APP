@@ -1,0 +1,74 @@
+# 📝 TO-DO-APP
+
+A full-stack To-Do application that allows users to securely register, log in, and manage their daily tasks.
+
+## 🚀 Features
+
+- User registration
+- User login and authentication
+- Secure authentication using JWT
+- Create new tasks
+- View tasks
+- Update tasks
+- Delete tasks
+- User-specific task management
+- RESTful API
+- Responsive React frontend
+- Node.js and Express.js backend
+- MongoDB database integration
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- Vite
+- JavaScript
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JSON Web Token (JWT)
+
+## 📂 Project Structure
+
+```text
+TO-DO-APP/
+│
+├── Backend/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── taskController.js
+│   │
+│   ├── middleware/
+│   │   └── auth.js
+│   │
+│   ├── models/
+│   │   ├── Task.js
+│   │   └── User.js
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── taskRoutes.js
+│   │
+│   ├── server.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── Frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── index.html
+│   ├── package.json
+│   └── package-lock.json
+│
+├── .gitignore
+└── package.json
